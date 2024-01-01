@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Conway's Game Of Life 3D</title>
+</head>
+<body>
+  <div class="utility-arena">
+    <button id="previous-generation-button-id">Previous Generation</button>
+    <button id="next-generation-button-id">Next Generation</button>
+    <div class="statistics">
+      <h2>Active Cells: <span class="active-cell-counter" id="active-cell-counter"></span></h2>
+    </div>
+  </div>
+  <div id="canvas-container" class="canvas-arena"></div>
+  <script defer type="module" src="./src/index.ts"></script>
+</body>
+</html>

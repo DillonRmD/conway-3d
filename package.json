@@ -1,0 +1,19 @@
+{
+  "name": "conway-3d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/three": "^0.160.0",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.10",
+    "worker-plugin": "^5.0.1"
+  }
+}
